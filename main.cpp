@@ -20,11 +20,11 @@ int main() {
     //demande d'input à l'utilisateur
     do {
         do {
-            cout << "Veuillez saisir une valeure comprise entre 2 et 1000 :" << endl;
+            cout << "Veuillez saisir une valeur comprise entre 2 et 1000 :" << endl;
             cin >> valeur;
         } while (valeur > 1000 || valeur < 2 || valeur == 1000);
 
-        cout << "voici la liste des nombres premiers :" << endl;
+        cout << "Voici la liste des nombres premiers :" << endl;
         // boucle pour compter le nombre de diviseurs
         for (int dividende = 2; dividende <= valeur; dividende++) {
             int nb_diviseur = 0; // variable qui va compter le nombre de diviseurs.
@@ -51,7 +51,7 @@ int main() {
 
         //demande pour recommencer le programme
         do {
-            cout << "voulez-vous recommencer [O/N] ?" << endl;
+            cout << "Voulez-vous recommencer [O/N] ?" << endl;
             cin >> choix_recommencer;
         } while (choix_recommencer != 'O' && choix_recommencer != 'N' &&
           choix_recommencer != 'o' && choix_recommencer != 'n');
