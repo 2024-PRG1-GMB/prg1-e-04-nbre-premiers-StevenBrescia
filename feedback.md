@@ -1,0 +1,5 @@
+- Pas de constantes utilisées pour les limtes et entrées utilisateur.
+- Il manque la lib "cstlib"
+- Mauvais affichage selon la consigne
+- Colonne s'écrit avec 2 "n"
+- Ligne 49-50, mauvaise pratique et redondant
